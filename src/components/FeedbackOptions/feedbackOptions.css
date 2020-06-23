@@ -1,0 +1,13 @@
+.button {
+  margin-right: 10px;
+  border: 1px solid;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:active {
+  background: blue;
+  border: 1px solid;
+}

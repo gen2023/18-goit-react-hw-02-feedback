@@ -31,9 +31,7 @@ export default class App extends Component {
     Math.ceil((good * 100) / total) ? Math.ceil((good * 100) / total) : 0;
 
   render() {
-    const { good } = this.state;
-    const { neutral } = this.state;
-    const { bad } = this.state;
+    const { good, neutral, bad } = this.state;
 
     const total = this.countTotalFeedback();
     const countPositive = this.countPositiveFeedbackPercentage(total, good);
